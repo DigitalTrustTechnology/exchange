@@ -1,0 +1,584 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="1032112/assets/images/logo.png?rnd=1735131174889" type="image/x-icon">
+  <meta name="description" content="">
+  <title>Home</title>
+  <link rel="stylesheet" href="1032112/assets/web/assets/mobirise-icons2/mobirise2.css?rnd=1735131174883">
+  <link rel="stylesheet" href="1032112/assets/bootstrap/css/bootstrap.min.css?rnd=1735131174883">
+  <link rel="stylesheet" href="1032112/assets/bootstrap/css/bootstrap-grid.min.css?rnd=1735131174883">
+  <link rel="stylesheet" href="1032112/assets/bootstrap/css/bootstrap-reboot.min.css?rnd=1735131174883">
+  <link rel="stylesheet" href="1032112/assets/parallax/jarallax.css?rnd=1735131174883">
+  <link rel="stylesheet" href="1032112/assets/dropdown/css/style.css?rnd=1735131174883">
+  <link rel="stylesheet" href="1032112/assets/smart-cart/minicart-theme.css?rnd=1735131174883">
+  <link rel="stylesheet" href="1032112/assets/socicon/css/styles.css?rnd=1735131174883">
+  <link rel="stylesheet" href="1032112/assets/theme/css/style.css?rnd=1735131174883">
+  <link rel="preload" href="css2?family=Afacad:ital,wght@0,400..700;1,400..700&display=swap&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="css2?family=Afacad:ital,wght@0,400..700;1,400..700&display=swap&display=swap"></noscript>
+  <link rel="stylesheet" href="1032112/assets/css/mbr-additional.css?rnd=1735131174883" type="text/css">
+  
+  
+  
+  
+
+
+<style>
+.navbar-fixed-top {
+  top: auto;
+}
+#mobiriseBanner.container-banner {
+  height: 8rem;
+  opacity: 1;
+  -webkit-animation: 16s linear animationHeight;
+  -moz-animation: 16s linear animationHeight;
+    -o-animation: 16s linear animationHeight;
+       animation: 16s linear animationHeight;
+       transition: all  0.5s;
+}
+#mobiriseBanner.container-banner.container-banner-closing {
+  pointer-events: none;
+  height: 0;
+  opacity: 0;
+  -webkit-animation: 0.5s linear animationClosing;
+  -moz-animation:  0.5s linear animationClosing;
+    -o-animation:  0.5s linear animationClosing;
+       animation:  0.5s linear animationClosing;
+}
+#mobiriseBanner .banner {
+  min-height: 8rem;
+  position:fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  padding: 10px;
+  opacity:1;
+  -webkit-animation: 16s linear animationBanner;
+  -moz-animation: 16s linear animationBanner;
+    -o-animation: 16s linear animationBanner;
+       animation: 16s linear animationBanner;
+  z-index: 1031;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#mobiriseBanner .banner p {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  animation: none;
+  visibility: visible;
+}
+#mobiriseBanner .buy-license {
+  text-decoration: underline;
+}
+#mobiriseBanner .banner .btn {
+  margin: 0.3rem 0.5rem;
+  animation: none;
+  visibility: visible;
+}
+.navbar.opened {
+    z-index: 1032;
+}
+@-webkit-keyframes animationBanner { 0% { opacity: 0; top: -8rem; } 94% { opacity: 0; top: -8rem; } 100% { opacity: 1; top: 0; } }
+@-moz-keyframes animationBanner { 0% { opacity: 0; top: -8rem; } 94% { opacity: 0; top: -8rem; } 100% { opacity: 1; top: 0; } }
+@-o-keyframes animationBanner { 0% { opacity: 0; top: -8rem; } 94% { opacity: 0; top: -8rem; } 100% { opacity: 1; top: 0; } }
+   @keyframes animationBanner { 0% { opacity: 0; top: -8rem; } 94% { opacity: 0; top: -8rem; } 100% { opacity: 1; top: 0; } }
+@-webkit-keyframes animationHeight { 0% { height: 0; } 94% { height: 0; } 100% { height: 8rem; } }
+@-moz-keyframes animationHeight { 0% { height: 0; } 94% { height: 0; } 100% { height: 8rem; } }
+@-o-keyframes animationHeight { 0% { height: 0; } 94% { height: 0; } 100% { height: 8rem; } }
+   @keyframes animationHeight { 0% { height: 0; } 94% { height: 0; } 100% { height: 8rem; } }
+
+@-webkit-keyframes animationClosing { 0% { height: 8rem; opacity: 1; } 30% { height: 8rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
+@-moz-keyframes animationClosing { 0% { height: 8rem; opacity: 1; } 30% { height: 8rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
+@-o-keyframes animationClosing { 0% { height: 8rem; opacity: 1; } 30% { height: 8rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
+@keyframes animationClosing { 0% { height: 8rem; opacity: 1; } 30% { height: 8rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
+
+@media(max-width: 767px) {
+  #mobiriseBanner.container-banner {
+    height: 12rem;
+  }
+  #mobiriseBanner .banner {
+    min-height: 12rem;
+  }
+  @-webkit-keyframes animationBanner { 0% { opacity: 0; top: -12rem; } 94% { opacity: 0; top: -12rem; } 100% { opacity: 1; top: 0; } }
+  @-moz-keyframes animationBanner { 0% { opacity: 0; top: -12rem; } 94% { opacity: 0; top: -12rem; } 100% { opacity: 1; top: 0; } }
+  @-o-keyframes animationBanner { 0% { opacity: 0; top: -12rem; } 94% { opacity: 0; top: -12rem; } 100% { opacity: 1; top: 0; } }
+    @keyframes animationBanner { 0% { opacity: 0; top: -12rem; } 94% { opacity: 0; top: -12rem; } 100% { opacity: 1; top: 0; } }
+  @-webkit-keyframes animationHeight { 0% { height: 0; } 94% { height: 0; } 100% { height: 12rem; } }
+  @-moz-keyframes animationHeight { 0% { height: 0; } 94% { height: 0; } 100% { height: 12rem; } }
+  @-o-keyframes animationHeight { 0% { height: 0; } 94% { height: 0; } 100% { height: 12rem; } }
+    @keyframes animationHeight { 0% { height: 0; } 94% { height: 0; } 100% { height: 12rem; } }
+
+  @-webkit-keyframes animationClosing { 0% { height: 12rem; opacity: 1; } 30% { height: 12rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
+  @-moz-keyframes animationClosing { 0% { height: 12rem; opacity: 1; } 30% { height: 12rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
+  @-o-keyframes animationClosing { 0% { height: 12rem; opacity: 1; } 30% { height: 12rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
+  @keyframes animationClosing { 0% { height: 12rem; opacity: 1; } 30% { height: 12rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
+}
+</style>
+</head>
+<body>
+
+  
+  <section data-bs-version="5.1" class="menu menu01 tradem5 cid-ujDwPpIk0J" once="menu" id="menu01-0">
+    
+
+    <div class="container">
+        <nav class="navbar navbar-dropdown navbar-expand-lg">
+            <div class="menu-container">
+                <div class="navbar-brand">
+				<span class="navbar-logo">
+					<a href="https://e.mobirise.com/tradem5/components/index.html">
+						<img src="1032112/assets/images/logo.png?rnd=1735131174889" alt="" style="height: 3rem;">
+					</a>
+				</span>
+                    
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true"><li class="nav-item">
+                            <div contenteditable="true" style="position: absolute; left: -100000px; opacity: 0;"></div><div contenteditable="true" style="position: absolute; left: -100000px; opacity: 0;"></div><div contenteditable="true" style="position: absolute; left: -100000px; opacity: 0;"></div><a class="nav-link link text-info text-primary display-4" href="index.htm#header01-1">Главная</a>
+                        </li>
+                        <li class="nav-item">
+                            <div contenteditable="true" style="position: absolute; left: -100000px; opacity: 0;"></div><div contenteditable="true" style="position: absolute; left: -100000px; opacity: 0;"></div><div contenteditable="true" style="position: absolute; left: -100000px; opacity: 0;"></div><a class="nav-link link text-info text-primary display-4" href="index.htm#article02-7" aria-expanded="false">О сайте</a>
+                        </li>
+                        <li class="nav-item">
+                            <div contenteditable="true" style="position: absolute; left: -100000px; opacity: 0;"></div><div contenteditable="true" style="position: absolute; left: -100000px; opacity: 0;"></div><div contenteditable="true" style="position: absolute; left: -100000px; opacity: 0;"></div><a class="nav-link link text-info text-primary display-4" href="index.htm#article01-6">Обмен</a>
+                        </li>
+                        <li class="nav-item">
+                            <div contenteditable="true" style="position: absolute; left: -100000px; opacity: 0;"></div><a class="nav-link link text-info text-primary display-4" href="index.htm#features02-1">Полезное</a>
+                        </li></ul>
+                    
+                    <div class="navbar-buttons mbr-section-btn"><div contenteditable="true" style="position: absolute; left: -100000px; opacity: 0;"></div><div contenteditable="true" style="position: absolute; left: -100000px; opacity: 0;"></div><a class="btn btn-primary display-4" href="https://www.bestchange.ru/?p=1327942" target="_blank">ПЕРЕЙТИ К ОБМЕНУ
+                        </a></div>
+                </div>
+            </div>
+        </nav>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="header01 tradem5 cid-ujDwS21Xd1" data-bg-video="https://youtu.be/hgx0IScTiQM?si=53liZpwGsoK1F0uE" id="header01-1">
+    
+
+    <div class="mbr-fallback-image disabled"></div>
+    <div class="mbr-overlay" style="opacity: 0.7; background-color: rgb(8, 8, 19);"></div>
+
+    <div class="container">
+        <div class="row items-wrap">
+            <div class="col-12 col-lg-7 card">
+                <div class="content-wrapper">
+                    <h2 class="mbr-section-title mbr-fonts-style display-1">
+                        <strong><span><b>Обмен</b></span> <br>Криптовалюты</strong></h2>
+                    
+					<div class="tags-wrapper">
+						<div class="tags-wrap">
+							<div class="tag-wrap">
+								<div class="icon-wrapper">
+									<span class="mbr-iconfont mobi-mbri-users mobi-mbri"></span>
+								</div>
+								<p class="mbr-tag mbr-fonts-style display-4">Доверие пользователей</p>
+							</div>
+							<div class="tag-wrap">
+								<div class="icon-wrapper">
+									<span class="mbr-iconfont mobi-mbri-setting mobi-mbri"></span>
+								</div>
+								<p class="mbr-tag mbr-fonts-style display-4">Современные технологии</p>
+							</div>
+							<div class="tag-wrap">
+								<div class="icon-wrapper">
+									<span class="mbr-iconfont mobi-mbri-growing-chart mobi-mbri"></span>
+								</div>
+								<p class="mbr-tag mbr-fonts-style display-4">Актуальные курсы</p>
+							</div>
+						</div>
+					</div>
+                    <div class="mbr-section-btn"><div contenteditable="true" style="position: absolute; left: -100000px; opacity: 0;"></div><div contenteditable="true" style="position: absolute; left: -100000px; opacity: 0;"></div><a class="btn btn-primary display-4" href="https://www.bestchange.ru/?p=1327942" target="_blank">ПЕРЕЙТИ К ОБМЕНУ</a></div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 card">
+                <div class="content-wrapper">
+                    <div class="image-wrapper">
+                        <a href=""><img src="1032112/assets/images/image15-h_m5303ra2.jpg" alt=""></a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="article01 tradem5 cid-uxSQCCpNcd" id="article01-6">
+    
+
+    
+    
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="content-wrapper">
+                    <h2 class="mbr-section-title mbr-fonts-style display-2"><strong>Как&nbsp;<span><b>Криптовалюту</b></span>&nbsp;Обменять(купить)?</strong>
+                    </h2>
+                    <div class="text-wrapper">
+                        <p class="mbr-text mbr-fonts-style display-4">Удобнее всего это сделать когда под рукой есть надежный помощник — BestChange, который 7 дней в неделю, 24 часа в сутки отслеживает самые выгодные курсы обмена популярных валютных пар и представляет их своим посетителям.
+<br>Жмите кнопку перейти к обмену и получите достоверную информацию о более чем 500 авторитетных обменных пунктах и возможность за пару кликов воспользоваться услугами любого из них без регистрации.&nbsp;<br>Выберите какую валюту отдаете и какую получаете, купить либо продать биткоин или другую криптовалюту с банковской карты стало как никогда просто, быстро и удобно.<br><br></p>
+                    </div>
+                    <div class="mbr-section-btn"><div contenteditable="true" style="position: absolute; left: -100000px; opacity: 0;"></div><div contenteditable="true" style="position: absolute; left: -100000px; opacity: 0;"></div><a class="btn btn-primary display-4" href="https://www.bestchange.ru/?p=1327942" target="_blank">
+                            ПЕРЕЙТИ К ОБМЕНУ
+                        </a></div>
+                    <div class="border-wrap"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="article02 tradem5 cid-uxSRlOm20o" id="article02-7">
+    
+
+    
+    
+
+    <div class="container">
+        <div class="row items-wrap">
+            <div class="col-12 col-lg-6 card">
+                <div class="content-wrapper">
+                    <h2 class="mbr-section-title mbr-fonts-style display-2">
+                        <strong><span><b>BestChange</b></span>&nbsp;Ваш надежный партнер в мире Криптовалют</strong></h2>
+                    <div class="text-wrapper">
+                        <p class="mbr-text mbr-fonts-style display-4">Выгодно обменять электронные деньги теперь можно еще быстрее, еще надежнее, еще безопаснее. Уровень скорости, надежности и безопасности, а так же самый подходящий курс для обмена своей валюты вы определяете сами! Просто заходим на интернет-сервис нажав кнопку перейти к обмену и выбираем для работы один из более чем 500 лучших онлайн-обменников Интернета. Практически каждый из представленных на сайте ресурсов работает со всеми типами валют, имеет многочисленную аудиторию клиентов, пользуется заслуженным доверием, предоставляет широкий спектр вариантов вывода: на карту, банковским переводом, наличными и т.п.
+<br>Жмите на кнопку ниже и меняйте деньги с удовольствием.
+                        </p>
+                    </div>
+                    <div class="mbr-section-btn"><div contenteditable="true" style="position: absolute; left: -100000px; opacity: 0;"></div><div contenteditable="true" style="position: absolute; left: -100000px; opacity: 0;"></div><a class="btn btn-primary display-4" href="https://www.bestchange.ru/?p=1327942" target="_blank">
+                            ПЕРЕЙТИ К ОБМЕНУ
+                        </a></div>
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="content-wrapper">
+                    <div class="image-wrapper">
+                        <img src="1032112/assets/images/image1-h_m52z71mp.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="features07 tradem5 cid-uxSSwWdkxv" id="features07-8">
+    
+
+    
+    
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="title-wrapper">
+                    <h2 class="mbr-section-title mbr-fonts-style display-2">
+                        <strong><span><b>Удобный</b></span> быстрый надежный</strong>
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <div class="row items-wrap">
+            <div class="item features-without-image col-12 col-lg-4">
+                <div class="item-wrapper card_1">
+                    <div class="card-box">
+                        <div class="icon-wrapper">
+                            <div class="icon-wrap">
+                                <span class="mbr-iconfont mobi-mbri-globe-2 mobi-mbri"></span>
+                            </div>
+                        </div>
+                        <h4 class="item-title mbr-fonts-style display-5">Актуальные курсы электронных валют</h4>
+                        <div class="tags-wrapper">
+                            <ul class="list mbr-fonts-style display-4">
+                                <li class="tag-wrapper">Bitcoin</li>
+                                <li class="tag-wrapper">Ethereum and USDT</li>
+                                <li class="tag-wrapper">Solana</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item features-without-image col-12 col-lg-4">
+                <div class="item-wrapper card_2">
+                    <div class="card-box">
+                        <div class="icon-wrapper">
+                            <div class="icon-wrap">
+                                <span class="mbr-iconfont mobi-mbri-protect mobi-mbri"></span>
+                            </div>
+                        </div>
+                        <h4 class="item-title mbr-fonts-style display-5">Надежность и безопасность обменных пунктов</h4>
+                        <div class="tags-wrapper">
+                            <ul class="list mbr-fonts-style display-4">
+                                <li class="tag-wrapper">Технологии</li>
+                                <li class="tag-wrapper">Защита</li>
+                                <li class="tag-wrapper">Строгий отбор&nbsp;</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item features-without-image col-12 col-lg-4">
+                <div class="item-wrapper card_3">
+                    <div class="card-box">
+                        <div class="icon-wrapper">
+                            <div class="icon-wrap">
+                                <span class="mbr-iconfont mobi-mbri-users mobi-mbri"></span>
+                            </div>
+                        </div>
+                        <h4 class="item-title mbr-fonts-style display-5"><strong>Огромное количество отзывов</strong></h4>
+                        <div class="tags-wrapper">
+                            <ul class="list mbr-fonts-style display-4">
+                                <li class="tag-wrapper">В реальном времени</li>
+                                <li class="tag-wrapper">Доверие</li>
+                                <li class="tag-wrapper">Выбор многих</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="tabs01 tabs tradem5 cid-ujDxmT0ed2" id="tabs01-c">
+    
+
+    
+    
+
+    <div class="container">
+        <div class="row items-wrap">
+            <div class="col-12 col-lg-6 card">
+                <div class="content-wrapper">
+                    <h2 class="mbr-section-title mbr-fonts-style display-2">
+                        <strong>Рекомендуем <span><b>Криптовалюты</b></span></strong>
+                    </h2>
+                    <div class="tabs-wrapper">
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li class="nav-item first mbr-fonts-style"><a class="nav-link show mbr-fonts-style active display-4" role="tab" data-toggle="tab" data-bs-toggle="tab" href="#tabs01-c_tab0" aria-selected="true">
+                                    BTC
+                                </a></li>
+                            <li class="nav-item"><a class="nav-link mbr-fonts-style active display-4" role="tab" data-toggle="tab" data-bs-toggle="tab" href="#tabs01-c_tab1" aria-selected="true">
+                                    ETH
+                                </a></li>
+                            <li class="nav-item"><a class="nav-link mbr-fonts-style active display-4" role="tab" data-toggle="tab" data-bs-toggle="tab" href="#tabs01-c_tab2" aria-selected="true">
+                                    BNB
+                                </a></li>
+                            <li class="nav-item"><a class="nav-link mbr-fonts-style active display-4" role="tab" data-toggle="tab" data-bs-toggle="tab" href="#tabs01-c_tab3" aria-selected="true">
+                                    ADA
+                                </a></li>
+                            <li class="nav-item"><a class="nav-link mbr-fonts-style active display-4" role="tab" data-toggle="tab" data-bs-toggle="tab" href="#tabs01-c_tab4" aria-selected="true">
+                                    SOL
+                                </a></li>
+                            <li class="nav-item"><a class="nav-link mbr-fonts-style active display-4" role="tab" data-toggle="tab" data-bs-toggle="tab" href="#tabs01-c_tab5" aria-selected="true">
+                                    DOT
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 card">
+                <div class="tab-content">
+                    <div id="tab1" class="tab-pane in active" role="tabpanel">
+                        <div class="item-content ">
+                            <div class="text-wrapper">
+                                <h4 class="item-title mbr-fonts-style display-5">
+                                    <strong>Bitcoin</strong>
+                                </h4>
+                                <div class="text-wrap">
+                                    <p class="item-text mbr-fonts-style display-4">Биткойн - первая и самая известная криптовалюта. Ее часто считают цифровым золотом из-за ограниченного предложения и свойства хранить стоимость.<br></p>
+                                </div>
+                            </div>
+                            <div class="image-wrap">
+                                <img src="1032112/assets/images/image18.jpg?rnd=1735131174889" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tab2" class="tab-pane" role="tabpanel">
+                        <div class="item-content ">
+                            <div class="text-wrapper">
+                                <h4 class="item-title mbr-fonts-style display-5">
+                                    <strong>Ethereum</strong>
+                                </h4>
+                                <div class="text-wrap">
+                                    <p class="item-text mbr-fonts-style display-4">
+                                        Ethereum - это децентрализованная платформа, позволяющая создавать и запускать смарт-контракты и децентрализованные приложения (dApps).
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="image-wrap">
+                                <img src="1032112/assets/images/image12.jpg?rnd=1735131174889" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tab3" class="tab-pane" role="tabpanel">
+                        <div class="item-content ">
+                            <div class="text-wrapper">
+                                <h4 class="item-title mbr-fonts-style display-5">
+                                    <strong>Binance Coin</strong>
+                                </h4>
+                                <div class="text-wrap">
+                                    <p class="item-text mbr-fonts-style display-4">
+                                        Binance Coin - родная криптовалюта биржи Binance, одной из крупнейших криптовалютных бирж в мире.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="image-wrap">
+                                <img src="1032112/assets/images/image10.jpg?rnd=1735131174889" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tab4" class="tab-pane" role="tabpanel">
+                        <div class="item-content ">
+                            <div class="text-wrapper">
+                                <h4 class="item-title mbr-fonts-style display-5">
+                                    <strong>Cardano</strong>
+                                </h4>
+                                <div class="text-wrap">
+                                    <p class="item-text mbr-fonts-style display-4">
+                                        Cardano - это блокчейн-платформа, которая призвана обеспечить более сбалансированную и устойчивую экосистему для криптовалют благодаря своей многоуровневой архитектуре.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="image-wrap">
+                                <img src="1032112/assets/images/image19.jpg?rnd=1735131174889" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tab5" class="tab-pane" role="tabpanel">
+                        <div class="item-content ">
+                            <div class="text-wrapper">
+                                <h4 class="item-title mbr-fonts-style display-5">
+                                    <strong>Solana</strong>
+                                </h4>
+                                <div class="text-wrap">
+                                    <p class="item-text mbr-fonts-style display-4">
+                                        Solana - это высокофункциональный проект с открытым исходным кодом, который опирается на безразрешительную природу технологии блокчейн для создания решений DeFi.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="image-wrap">
+                                <img src="1032112/assets/images/image3.jpg?rnd=1735131174889" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tab6" class="tab-pane" role="tabpanel">
+                        <div class="item-content ">
+                            <div class="text-wrapper">
+                                <h4 class="item-title mbr-fonts-style display-5">
+                                    <strong>Polkadot</strong>
+                                </h4>
+                                <div class="text-wrap">
+                                    <p class="item-text mbr-fonts-style display-4">
+                                        Polkadot - это многоцепочечная сеть, цель которой - обеспечить беспрепятственное взаимодействие различных блокчейнов. Большое внимание уделяется совместимости и масштабируемости.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="image-wrap">
+                                <img src="1032112/assets/images/image11.jpg?rnd=1735131174889" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="features02 tradem5 cid-uxSkEDEYyJ mbr-parallax-background" id="features02-1">
+    
+
+    
+    <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(8, 8, 19);"></div>
+
+    <div class="container">
+        <div class="row items-wrap">
+            <div class="col-12 col-lg-5 card">
+                <div class="title-wrapper">
+                    <h2 class="mbr-section-title mbr-fonts-style display-2"><strong>&nbsp;Добавь в закладки чтобы не потерять!<br></strong></h2>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 card">
+                <div class="items-wrapper">
+                    <div class="item features-image">
+                        <div class="item-wrapper">
+                            <div class="item-content">
+                                <h4 class="item-title mbr-fonts-style display-5">Быстрый обмен<strong></strong></h4>
+                                <p class="item-text mbr-fonts-style display-4">Вы сразу видите комиссию обменного пункта, резерв нужной валюты, отзывы пользователей. И самое главное — в данном мониторинге представлены только проверенные обменные пункты, которым можно доверять.
+<br>Все эти удобства доступны на BestChange.</p>
+                            </div>
+                            <div class="item-img">
+                                <img src="1032112/assets/images/image5-h_m53tl3xg.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item features-image">
+                        <div class="item-wrapper">
+                            <div class="item-content">
+                                <h4 class="item-title mbr-fonts-style display-5">Актуальный курс</h4>
+                                <p class="item-text mbr-fonts-style display-4">
+                                    Даже если сейчас не нужно ничего обменивать, просто занесите этот сайт себе в закладки, чтобы потом не мучиться в поисках лучшего курса обмена.</p>
+                            </div>
+                            <div class="item-img">
+                                <img src="1032112/assets/images/image6.jpg?rnd=1735131174889" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="corem5 footer2 cid-uxSm2D6bJs" once="footers" id="footer02-4">
+
+    
+
+    
+
+    <div class="container">
+        <div class="media-container-row align-center mbr-white">
+            <div class="col-12">
+                <p class="mbr-text mb-0 mbr-fonts-style display-4">
+                    © Copyright 2024 - All Rights Reserved
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+  <script src="1032112/assets/web/assets/jquery/jquery.min.js?rnd=1735131174883"></script>
+  <script src="1032112/assets/bootstrap/js/bootstrap.bundle.min.js?rnd=1735131174883"></script>
+  <script src="1032112/assets/parallax/jarallax.js?rnd=1735131174883"></script>
+  <script src="1032112/assets/smoothscroll/smooth-scroll.js?rnd=1735131174883"></script>
+  <script src="1032112/assets/ytplayer/index.js?rnd=1735131174883"></script>
+  <script src="1032112/assets/dropdown/js/navbar-dropdown.js?rnd=1735131174883"></script>
+  <script src="1032112/assets/smart-cart/minicart.js?rnd=1735131174883"></script>
+  <script src="1032112/assets/smart-cart/minicart-customizer.js?rnd=1735131174883"></script>
+  <script src="1032112/assets/vimeoplayer/player.js?rnd=1735131174883"></script>
+  <script src="1032112/assets/mbr-tabs/mbr-tabs.js?rnd=1735131174883"></script>
+  <script src="1032112/assets/theme/js/script.js?rnd=1735131174883"></script>
+  
+  
+  
+
+</body>
+</html>
